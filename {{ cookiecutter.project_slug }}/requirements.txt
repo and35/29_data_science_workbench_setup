@@ -1,0 +1,10 @@
+{% if cookiecutter.project_packages == "Minimal" -%}
+fs
+pathlib
+pyhere
+pyprojroot
+{% endif -%}
+{% if cookiecutter.project_packages == "All" -%}
+numpy
+{% endif -%}
+pip
